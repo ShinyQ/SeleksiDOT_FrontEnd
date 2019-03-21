@@ -1,0 +1,76 @@
+.footer {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: relative
+}
+
+.footer .footer-bg {
+    width: 100%;
+    height: auto
+}
+
+.footer .footer-body {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0
+}
+
+.footer .footer-body .social-icon {
+    width: 150px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.footer .footer-body .social-icon img {
+    height: 4vh;
+    width: auto
+}
+
+.footer .footer-body .footer-list {
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 14px;
+    line-height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.footer .footer-body .footer-list div div {
+    margin: 2vh 0
+}
+
+.footer .footer-body .footer-lower {
+    margin-top: 20px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}

@@ -1,0 +1,54 @@
+.landing {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+.landing-bg {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+.landing img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.landing-bd {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.landing-tittle {
+    position: relative;
+    height: 152px;
+    width: 508px;
+    color: #FFFFFF;
+    font-family: "Arial";
+    font-size: 56px;
+    line-height: 76px;
+}
+
+.landing-body {
+    position: relative;
+    height: 84px;
+    width: 600px;
+    opacity: 0.9;
+    color: #FFFFFF;
+    font-family: "Arial";
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.rectangle {
+	height: 48px;
+	width: 240px;
+	border-radius: 6px;
+	background-color: #FFFFFF;
+}

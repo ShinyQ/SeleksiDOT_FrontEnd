@@ -1,0 +1,65 @@
+button:hover {
+    cursor: pointer;
+}
+
+body {
+    background-color: #FAFAFA;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.c-section-title {
+    color: #141b2c;
+    font-family: "Arial";
+    font-size: 44px;
+    line-height: 68px
+}
+
+.c-text {
+    font-family: "Arial";
+    font-size: 16px;
+    line-height: 28px;
+    color: #3a4451
+}
+
+.c-btn {
+    padding: 16px 30px;
+    border: none;
+    background: none;
+    outline: none;
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 6px;
+}
+
+.c-btn-white {
+    background: white;
+}
+
+.c-btn-blue {
+    background: linear-gradient(270deg, #273F97 0%, #2481DE 100%);
+    color: white;
+}
+
+.clr-btn {
+    background: none;
+    outline: none;
+    border: none;
+    color: #2481de;
+    font-family: "Arial";
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.shape-circle {
+    color: white;
+    font-size: 20px !important;
+}
+
+.t-small {
+    color: white;
+    padding-bottom: 10px !important;
+}
